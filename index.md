@@ -27,5 +27,4 @@ Physics + CS. Space systems, autonomy, scientific computing.
 Command & Data Handling Subsystem Lead
 
 ---
-
 [Download CV](/assets/Rishmita_Rao_CV.pdf)
