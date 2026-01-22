@@ -73,6 +73,10 @@
     color: #e7d26f
 }
 
+.tech-card-text{
+    color:#96e2b3
+}
+
 .tech-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 14px 32px rgba(0, 0, 0, 0.12);
@@ -97,5 +101,119 @@
   }
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
 
-/* end custom scss snippet */
+/* Accordion button */
+.accordion {
+  display: flex;
+  flex-direction: row;    /* image left, content right */
+  align-items: center;    /* vertically center content with image */
+  gap: 2rem;              /* space between image and content */  
+  background-color: #5a1f65;
+  color: #96e2b3;
+  cursor: pointer;
+  padding: 0.35rem 0.5rem;
+  width: 100%;
+  text-align: left;
+  border: 2px solid #7e82ac;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.accordion-text h2,
+.accordion-text h3,
+.accordion-text h4 {
+  margin: 1px 0;   /* small spacing between lines */
+}
+
+.accordion a,
+.panel a {
+  color: #96e2b3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.accordion:hover {
+  background-color: #ce78c1;
+  color: #E8E9ED; 
+}
+
+.accordion a:hover,
+.panel a:hover {
+  color: #96e2b3;
+  text-decoration: underline;
+}
+
+
+.card-img-left {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  flex-shrink: 0; /* prevent image from shrinking */
+}
+
+.accordion-text-right {
+  display: flex;
+  flex-direction: column; /* stack title, org, dates vertically */
+  justify-content: center;
+}
+
+.accordion-text-right h3,
+.accordion-text-right h4,
+.accordion-text-right h5 {
+  margin: 0.05rem 0;   /* small spacing between lines */
+}
+
+/* Responsive: stack image above text on small screens */
+@media (max-width: 600px) {
+  .accordion {
+    flex-direction: column;
+    text-align: center;
+  }
+  .accordion-text-right {
+    align-items: center;
+  }
+}
+
+
+.panel {
+  padding: 0 1.5rem;
+  display: none;
+  background-color: #2a2836;
+  border-left: 2px solid #7e82ac;
+  border-right: 2px solid #7e82ac;
+  border-bottom: 2px solid #7e82ac;
+  border-radius: 0 0 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel ul {
+  padding-left: 1.25rem;
+}
+
+.project-accordion {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.project-accordion a {
+  margin-left: auto;   
+  font-weight: bold;
+  color: #96e2b3;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.project-accordion a:hover {
+  color: #96e2b3;
+  font-weight: bold;
+  text-decoration: underline;
+}
