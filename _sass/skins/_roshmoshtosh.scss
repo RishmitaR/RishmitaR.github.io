@@ -1,0 +1,68 @@
+// main colors
+$main-color-1:     #ce78c1;
+$text-color-1:     #E8E9ED;
+
+$main-color-2:     #5a1f65;
+$text-color-2:     #b77647;
+
+$main-color-3:     #272131;
+$text-color-3:     #b8b8ba;
+
+$main-color-theme-light: rgba(#2a2836, .9);
+$main-color-theme-dark:  rgba(#2a2836, .9);
+
+// page background
+$background-color: #2a2836; 
+
+// text colors
+$text-color-theme-light-d: #85dbde;
+$text-color-theme-light:   #b8b8ba;
+$text-color-theme-light-l: #d17ac3;
+
+$text-color-theme-dark-d:  #85dbde;
+$text-color-theme-dark:    #b8b8ba;
+$text-color-theme-dark-l:  #d17ac3;
+
+$text-color-d:     $text-color-theme-light-d;
+$text-color:       $text-color-theme-light;
+$text-color-l:     $text-color-theme-light-l;
+
+$text-background-color: rgba(#000, .05);
+
+// header and footer colors
+$header-text-color: $text-color-3;
+$header-background: $main-color-3;
+
+$footer-text-color: $text-color-3;
+$footer-background: $main-color-3;
+
+// border and shadow colors
+$border-color:     #5F6062;
+$border-color-l:   mix(#000, $background-color, 10%);
+$decorate-color:   rgba(#990033, .15);
+$mask-color:       rgba(#000, .9);
+$select-color:     rgba($main-color-1, .5);
+
+// function colors
+$green:           #52c41a;
+$blue:            #1890ff;
+$yellow:          #fa8c16;
+$red:             #f5222d;
+$text-color-function: #fff;
+
+// logo colors
+$mail-color:       #0072c5;
+$facebook-color:   #4267b2;
+$twitter-color:    #1da1f2;
+$weibo-color:      #e6162d;
+$google-plus-color:#ea4335;
+$telegram-color:   #32afed;
+$medium-color:     #000;
+$zhihu-color:      #0084ff;
+$douban-color:     #42bd56;
+$linkedin-color:   #1074af;
+$github-color:     #000;
+$npm-color:        #fff;
+
+// highlight colors
+@import "skins/highlight/tomorrow";

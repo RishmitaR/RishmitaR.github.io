@@ -3,10 +3,7 @@ layout: article
 title: Rishmita Rao
 article_header:
   type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    src: git_profile.jpg
+  theme: light
 ---
 
 ## Hi, I’m Rishmita 
@@ -27,4 +24,3 @@ Physics + CS. Space systems, autonomy, scientific computing.
 Command & Data Handling Subsystem Lead
 
 ---
-[Download CV](/assets/Rishmita_Rao_CV.pdf)
