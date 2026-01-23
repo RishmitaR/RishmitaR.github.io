@@ -9,6 +9,9 @@ section {
    -webkit-text-stroke: 1px #7e82ac; /* border color */
 }
 
+.main-color{
+  color:#49a4a7
+}
 .pop {
   color: #a6539a; /* pick your color */
 }
@@ -190,12 +193,17 @@ h2 {
 .panel {
   padding: 0 1.5rem;
   display: none;
-  background-color: #2a2836;
+  background-color: #403D52; 
   border-left: 2px solid #7e82ac;
   border-right: 2px solid #7e82ac;
+  border-top: 2px solid #7e82ac;
   border-bottom: 2px solid #7e82ac;
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
   margin-bottom: 1rem;
+}
+
+.panel a{
+  color: #ce78c1 !important;
 }
 
 .panel ul {
