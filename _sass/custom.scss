@@ -355,17 +355,16 @@ h2 {
   }
 } 
 
-@media (max-width: 768px) {
-  .project-subtitle {
-    font-size: 0.85rem;    /* smaller than normal h4/h5 */
-    font-weight: 400;      /* normal weight */
-    line-height: 1.4;
-  }
-  .project-subtitle-smaller {
-    font-size: 0.65rem;    /* smaller than normal h4/h5 */
-    font-weight: 400;      /* normal weight */
-    line-height: 1.4;
-  }
+.project-subtitle {
+  font-size: 0.85rem;    /* smaller than normal h4/h5 */
+  font-weight: 400;      /* normal weight */
+  line-height: 1.4;
 }
+.project-subtitle-smaller {
+  font-size: 0.65rem;    /* smaller than normal h4/h5 */
+  font-weight: 400;      /* normal weight */
+  line-height: 1.4;
+}
+
 
 
