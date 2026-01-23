@@ -120,8 +120,8 @@ layout: page
 
 <section class="projects">
   <h2>Projects</h2>
-  <h4 style="text-align:center">The projects more tied to my work experience are in the projects page, these are some personal and student org projects</h4>
-  <h5>*project pages and WIP blogs regarding these projects will be coming soon!</h5>
+  <h4 class="project-subtitle" style="text-align:center">The projects more tied to my work experience are in the projects page, these are some personal and student org projects</h4>
+  <h5 class="project-subtitle-smaller">*project pages and WIP blogs regarding these projects will be coming soon!</h5>
 
   <button class="accordion project-accordion">
     <span class="tech-card-title">Album of the Week Website & Discord Bot</span>
