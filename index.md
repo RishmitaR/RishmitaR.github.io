@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 ---
 
 
@@ -126,7 +126,21 @@ layout: article
       <li>Implemented OAuth login for Spotify and Last.fm and generated real-time feature vectors for model inference</li>
     </ul>
   </div>
+  
+  <button class="accordion project-accordion"><span class="tech-card-title">Cricanalytics</span><a href="https://github.com/Aran203/cricanalytics">github.com/Aran203/cricanalytics</a></button>
+  <div class="panel">
+    <ul>
+      <li>Built an interactive Streamlit dashboard to analyze IPL 2023–2024 player performance</li>
+      <li>Performed EDA with Pandas and created visualizations with Seaborn</li>
+      <li>Developed a custom expected wickets metric using K-means clustering to evaluate bowling performance with data-driven insights</li>
+    </ul>
+  </div>
+
 </section>
+
+
+
+
 
 <script>
 const acc = document.getElementsByClassName("accordion");

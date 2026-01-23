@@ -1,4 +1,9 @@
 /* start custom scss snippet */
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .name-highlight {
   color: #a6539a; /* pick your color */
    -webkit-text-stroke: 1px #7e82ac; /* border color */
@@ -14,7 +19,7 @@
 
 .about-container {
   display: flex;
-  align-items: center;        /* vertical alignment */
+  align-items: flex-start;        /* vertical alignment */
   justify-content: space-between;
   gap: 3rem;
   margin-top: 2rem;
@@ -206,14 +211,13 @@ h2 {
 .project-accordion a {
   margin-left: auto;   
   font-weight: bold;
-  color: #96e2b3;
+  color: #96e2b3 !important;
   text-decoration: none;
   font-size: 0.9rem;
-  font-weight: 500;
 }
 
 .project-accordion a:hover {
-  color: #96e2b3;
+  color: #96e2b3 !important;
   font-weight: bold;
   text-decoration: underline;
 }

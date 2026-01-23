@@ -1,6 +1,4 @@
 header:
-  - title: Resume
-    url: resume.html
   - title: Projects
     url: /projects/index.html
   - title: Blog

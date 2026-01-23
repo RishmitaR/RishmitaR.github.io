@@ -60,17 +60,19 @@
   }
 }
 
+
+
 .header__brand {
   @include flexbox();
   @include align-items(center);
   & > svg {
-    width: map-get($base, font-size-h4) * 1.6;
-    height: map-get($base, font-size-h4) * 1.6;
+    width: map-get($base, font-size-h5) * 2.4;
+    height: map-get($base, font-size-h5) * 2.4;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: map-get($base, font-size-h4) * 1.2;
-      height: map-get($base, font-size-h4) * 1.2;
+      width: map-get($base, font-size-h5) * 2.4;
+      height: map-get($base, font-size-h5) * 2.4;
     }
   }
   & > a {
@@ -81,6 +83,8 @@
     }
   }
 }
+
+
 
 .navigation {
   @include overflow(auto, "x");
@@ -121,3 +125,5 @@
     @include split-line(bottom, 4px, $main-color-1);
   }
 }
+
+
