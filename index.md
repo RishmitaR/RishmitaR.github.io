@@ -9,7 +9,7 @@ layout: page
   <div class="about-text">
     <h2 class="pop">About Me</h2>
     <p>
-      I’m a recent Texas A&M alum (whoop!) with a B.S. in Astrophysics and minors in Computer Science and Mathematics. Throughout university I took every opportunity to explore the expansive universe of software development and scientific programming, and I fell in love with learning new technologies to push the limits of my passions. 
+      I’m a recent Texas A&M alumnus (whoop!) with a B.S. in Astrophysics and minors in Computer Science and Mathematics. Throughout university I took every opportunity to explore the expansive universe of software development and scientific programming, and I fell in love with learning new technologies to push the limits of my passions. 
     </p>
   </div>
   <div class="about-image">
