@@ -144,11 +144,13 @@ layout: page
     <a href="https://github.com/RishmitaR/Album-Per-Year" target="_blank">github.com/RishmitaR/Album-Per-Year</a>
   </button>
   <div class="panel">
+    <p>Album-Per-Year (not the final name) is a personalized web app that lets users connect their Spotify or Last.fm account, enter their birthday, and then select one of their favorite albums released each year they’ve been alive. At the end, the app generates a Topsters-style album chart. Read more about the project and where it currently is at <a href="/projects/project/2026/01/25/Album-Per-Year.html" target="_blank">here</a>.</p>
+    <h4 class="pop" style="text-align:center;">Key Accomplishments</h4>
     <ul>
-      <li>Built full-stack web app using React.js, Express.js, and FastAPI for users to generate shareable album charts</li>
-      <li>Created PostgreSQL database of 40,000+ ListenBrainz profiles for large-scale recommendations</li>
-      <li>Trained a Two Tower Recommendation model with TensorFlow Recommenders to serve relevant albums to users; trained and deployed via AWS SageMaker</li>
-      <li>Implemented OAuth login for Spotify and Last.fm and generated real-time feature vectors for model inference</li>
+      <li><b>Built full-stack web app using React.js, Express.js, and FastAPI for users to generate shareable album charts</b></li>
+      <li><b>Created PostgreSQL database of 40,000+ ListenBrainz profiles for large-scale recommendations</b></li>
+      <li><b>Trained a Two Tower Recommendation model with TensorFlow Recommenders to serve relevant albums to users; trained and deployed via AWS SageMaker</b></li>
+      <li><b>Implemented OAuth login for Spotify and Last.fm and generated real-time feature vectors for model inference</b></li>
     </ul>
   </div>
 

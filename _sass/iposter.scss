@@ -1,0 +1,108 @@
+/* ===============================
+   BASE
+================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #1e1b2e;
+  color: #e8e9ed;
+}
+
+.iposter {
+  max-width: 1300px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* ===============================
+   HEADER
+================================ */
+
+.iposter-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.iposter-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.25rem;
+}
+
+.iposter-header h3 {
+  font-weight: 400;
+  color: #9aa4ff;
+}
+
+/* ===============================
+   GRID
+================================ */
+
+.iposter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ===============================
+   PANELS
+================================ */
+
+.iposter-panel {
+  background: #403d52;
+  border-radius: 1rem;
+  border: 2px solid #7e82ac;
+  display: flex;
+  flex-direction: column;
+  height: 320px;                 /* fixed panel height */
+  overflow: hidden;
+}
+
+/* Title bar */
+.panel-header {
+  background: #5a1f65;
+  color: #e7d26f;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+  border-bottom: 2px solid #7e82ac;
+}
+
+/* Scrollable content */
+.panel-body {
+  padding: 1rem;
+  overflow-y: auto;              /* key iPoster behavior */
+  flex: 1;
+}
+
+.panel-body p,
+.panel-body li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.panel-body ul {
+  padding-left: 1.25rem;
+}
+
+/* ===============================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+  .iposter-panel {
+    height: 260px;
+  }
+
+  .panel-header {
+    font-size: 1rem;
+  }
+
+  .panel-body {
+    padding: 0.85rem;
+  }
+}
