@@ -70,7 +70,7 @@ layout: page
       <li><b>Optimized a database of 200+ physics demos using SQL and Python</b></li>
       <li><b>Integrated the demo ordering system with the Google Calendar API to notify employees of demo delivery details</b></li>
       <li><b>Built a CrewAI multi-agent system using LangChain and RAG algorithms to parse Google Docs and suggest demos with continuous updates</b></li>
-      <li><b>Developed Python workflows for automated text summarization and resource classification with Streamlit dashboard visualizations</b></li>
+      <li><b>Developed Python workflows for automated text summarization and resource classification</b></li>
     </ul>
   </div>
 
