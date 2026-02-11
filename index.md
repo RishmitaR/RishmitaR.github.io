@@ -127,7 +127,7 @@ layout: page
   </button>
   <div class="panel">
     <p>
-      Album of the Week is a book club, but for albums! I joined the org in its infancy and was one of the first automation committee members. On this committee I worked with a team of 3–5 people to develop a codebase which fully centralized the voting, nomination, rating, and review process on our organization's website. Previously the nomination to rating process was done through Google forms that had to be sent out to members mutiple times throughout the week every week. On top of that, our organization facilitated a lot of music discussion on our Discord server, so we also developed a Discord Bot that interfaced with the backend of our Website. 
+      Album of the Week is a book club, but for albums! I joined the org in its infancy and was one of the first automation committee members. On this committee I worked with a team of 3–5 people to develop a codebase which fully centralized the voting, nomination, rating, and review process on our organization's website. Previously the nomination to rating process was done through Google forms that had to be sent out to members mutiple times throughout the week every week. On top of that, our organization facilitates a lot of music discussion on our Discord server, so the automation team also developed a Discord Bot that interfaced with the backend of our Website. 
       </p>
     <h4 class="pop" style="text-align:center;">Key Accomplishments</h4>
     <ul>  
