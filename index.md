@@ -49,7 +49,7 @@ layout: page
 </section>
 
 <section class="work-experience">
-  <h2 class="pop">Work Experience</h2>
+  <h2 class="pop">Experience</h2>
 
   <button class="accordion">
     <img src="PLC logo.png" alt="PLC" class="card-img-left">

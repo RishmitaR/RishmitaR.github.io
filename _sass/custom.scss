@@ -167,6 +167,7 @@ li {
 .accordion {
   display: flex;
   align-items: center;
+  text-align: left;
   gap: 2rem;
   width: 100%;
   padding: 0.35rem 0.5rem;
@@ -208,7 +209,7 @@ li {
 .accordion-text-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
 }
 
 .accordion-text-right h3,
@@ -343,71 +344,6 @@ li {
 
   .tech-section {
     margin-top: 1.25rem;
-  }
-}
-
-/* Iposter */ 
-
-
-/* Full-width iPoster that escapes the container */
-.iposter.full-width {
-  width: 100vw;               /* full viewport width */
-
-}
-
-/* Columns stack panels vertically */
-.iposter-column {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-/* Panels */
-.iposter-panel {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  overflow: hidden;
-  background: #fff;
-}
-
-/* Panel header */
-.iposter-panel-header {
-  background: #1f2933;
-  color: #fff;
-  padding: 0.75rem 1rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  margin-bottom: 1rem; /* ensures header doesn’t touch body */
-}
-
-/* Scrollable panel body */
-.iposter-panel-body {
-  padding: 1rem;
-  max-height: 260px;
-  overflow-y: auto;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Optional: scrollbar styling */
-.iposter-panel-body::-webkit-scrollbar {
-  width: 6px;
-}
-
-.iposter-panel-body::-webkit-scrollbar-thumb {
-  background: #bbb;
-  border-radius: 4px;
-}
-
-/* MOBILE: stack panels */
-@media (max-width: 900px) {
-  .iposter.full-width {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-  }
-
-  .iposter-panel-body {
-    max-height: none;
   }
 }
 
