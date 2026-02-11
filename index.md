@@ -62,10 +62,9 @@ layout: page
   <div class="panel">
     <ul>
       <p>
-        The Physics Lab Center (PLC) is responsible for designing, building, and maintaining physics demonstrations used in lectures and outreach events. I helped maintain our storeroom and workshop which houses over 200 demonstrations, covering topics such as thermodynamics, electricity and magnetism, classical mechanics, and modern physics. Another aspect of the job is updating the website where professors order demonstrations with demo descriptions and pictures. As I continued to work at the PLC I noticed many areas where updated technology could optimize a lot of our work on the employee side along with maximizing ease of use on the professor's side. This is why I’m currently working on updating the technology stack of our website and incorporating predictive models and agentic AI to better serve relevant demonstrations to professors. I’ve written more about these projects 
+        The Physics Lab Center (PLC) is responsible for designing, building, and maintaining physics demonstrations used in lectures and outreach events. Throughout my time at the PLC I've maintained our storeroom and workshop which houses over 200 demonstrations, covering topics such as thermodynamics, electricity and magnetism, classical mechanics, and modern physics. Another aspect of the job was updating the website where professors order demonstrations with demo descriptions and pictures. As I continued to work at the PLC I noticed many areas where updated technology could optimize a lot of our work on the employee side along with maximizing ease of use on the professor's side. This is why I’m currently working on updating the technology stack of our website and incorporating predictive models and agentic AI to better serve relevant demonstrations to professors. I’ve written more about these projects 
         <a href="/projects/project/2026/01/23/PLC_Website.html" target="_blank">here</a> (website update) and 
-        <a href="/projects/project/2026/01/23/PLC_Agents.html" target="_blank">here</a> (PLC agentic AI).
-        Properly documenting the storage and use of these physics demonstrations is especially important because these demonstrations are also presented during high-profile events like the TAMU Physics and Engineering Festival, which attract over 5,000 attendees annually.
+        <a href="/projects/project/2026/01/23/PLC_Agents.html" target="_blank">here</a> (PLC agentic AI). Properly documenting the storage and use of these physics demonstrations is especially important because these demonstrations are also presented during high-profile events like the TAMU Physics and Engineering Festival, which attract over 5,000 attendees annually.
       </p> 
       <h4 class="main-color" style="text-align:center;">Key Accomplishments</h4>
       <li><b>Optimized a database of 200+ physics demos using SQL and Python</b></li>
@@ -86,12 +85,11 @@ layout: page
   <div class="panel">
     <ul>
       <p>
-        At AggieSat Laboratory, I collaborated with a 30-member team to develop a project proposal for NASA’s PRISM solicitation. We prototyped a network of devices to establish a "lunar GPS system" capable of supporting future missions focused on lunar navigation, regolith composition studies, and building a lunar base camp.
-        Additionally, I served as the Command and Data Handling (CDH) Subsystem Lead for the 20-member GeoRGE team in an internal rover competition. In this role, I led the design of the CDH subsystem by completing ranking verification matrices, budget sheets, and test verification documents. My team designed and programmed autonomous rover software utilizing computer vision algorithms and stereoscopic vision, enabling the rover to navigate terrain modeled after the surfaces of Mars and the Moon. Finally I joined the Machine Learning team where my team and I researched how to use ML models in space engineering systems and started ideating on models that improve the efficiency of the MUSIC algorithm - which is a frequency estimation and radio direction finding algorithm.
+        At AggieSat Laboratory, I collaborated with a 30-member team to develop a project proposal for NASA’s PRISM solicitation. We prototyped a network of devices to establish a "lunar GPS system" capable of supporting future missions focused on lunar navigation, regolith composition studies, and building a lunar base camp. Additionally, I served as the Command and Data Handling (CDH) Subsystem Lead for the 20-member GeoRGE team in an internal rover competition. In this role, I led the design of the CDH subsystem by completing ranking verification matrices, budget sheets, and test verification documents. My team designed and programmed autonomous rover software utilizing computer vision algorithms and stereoscopic vision, which enabled the rover to navigate terrain modeled after the surfaces of Mars and the Moon. Finally I joined the Machine Learning team where my team and I researched how to use ML models in space engineering systems and started ideating on models that improve the efficiency of the MUSIC algorithm - which is a frequency estimation and radio direction finding algorithm.
       </p>
       <h4 class="main-color" style="text-align:center;">Key Accomplishments</h4>
       <li><b>Developed autonomous rover navigation software in C++ and Python with OpenCV following the V-model for iterative testing</b></li>
-      <li><b>Maintained Requirement Verification Matrices and subsystem documentation</b></li>
+      <li><b>Designed and updated Requirement Verification Matrices and subsystem documentation</b></li>
       <li><b>Managed a $1,000 subsystem budget and coordinated hardware procurement and test planning</b></li>
     </ul>
   </div>
@@ -120,8 +118,8 @@ layout: page
 
 <section class="projects">
   <h2>Projects</h2>
-  <h4 class="project-subtitle">The projects more tied to my work experience are in the projects page. These are some personal and student org projects.</h4>
-  <h5 class="project-subtitle-smaller">*project pages and WIP blogs regarding these projects will be coming soon!</h5>
+  <h4 class="project-subtitle">The projects more tied to my work experience are documented soley in the projects page. This is where I want to highlight some personal and student org projects.</h4>
+  <h5 class="project-subtitle-smaller">*project pages and WIP blogs for all projects will be coming soon!</h5>
 
   <button class="accordion project-accordion">
     <span class="tech-card-title">Album of the Week Website & Discord Bot</span>
@@ -129,8 +127,8 @@ layout: page
   </button>
   <div class="panel">
     <p>
-      Album of the Week is a book club, but for albums! I joined the org in its infancy and I joined the automation committee where I worked with a team of 3–5 people to develop a codebase to fully automate the voting, nomination, rating, and review process from Google Forms sheets to a centralized website. On top of that, because our organization facilitated a lot of music discussion on our Discord server the automation committee developed a Discord Bot that interfaced with our backend database.
-    </p>
+      Album of the Week is a book club, but for albums! I joined the org in its infancy and was one of the first automation committee members. On this committee I worked with a team of 3–5 people to develop a codebase which fully centralized the voting, nomination, rating, and review process on our organization's website. Previously the nomination to rating process was done through Google forms that had to be sent out to members mutiple times throughout the week every week. On top of that, our organization facilitated a lot of music discussion on our Discord server, so we also developed a Discord Bot that interfaced with the backend of our Website. 
+      </p>
     <h4 class="pop" style="text-align:center;">Key Accomplishments</h4>
     <ul>  
       <li><b>Developed JavaScript Discord bot with PostgreSQL integration for tracking posted song recommendations and updating weekly Spotify playlist</b></li>
@@ -144,7 +142,7 @@ layout: page
     <a href="https://github.com/RishmitaR/Album-Per-Year" target="_blank">github.com/RishmitaR/Album-Per-Year</a>
   </button>
   <div class="panel">
-    <p>Album-Per-Year (not the final name) is a personalized web app that lets users connect their Spotify or Last.fm account, enter their birthday, and then select one of their favorite albums released each year they’ve been alive. At the end, the app generates a Topsters-style album chart. Read more about the project and where it currently is at <a href="/projects/project/2026/01/25/Album-Per-Year.html" target="_blank">here</a>.</p>
+    <p>Album-Per-Year (not the final name) is a web app that lets users connect their Spotify or Last.fm account, enter their birthday, and then select one of their favorite albums released for each year they’ve been alive. At the end, the app generates a album chart. Read more about the project and where it currently is at <a href="/projects/project/2026/01/25/Album-Per-Year.html" target="_blank">here</a>.</p>
     <h4 class="pop" style="text-align:center;">Key Accomplishments</h4>
     <ul>
       <li><b>Built full-stack web app using React.js, Express.js, and FastAPI for users to generate shareable album charts</b></li>
@@ -159,6 +157,9 @@ layout: page
     <a href="https://github.com/Aran203/cricanalytics" target="_blank">github.com/Aran203/cricanalytics</a>
   </button>
   <div class="panel">
+    <p> Cricanalytics is a streamlit dashboard that visualizes sabermetrics style analysis applied to cricket games from the IPL (Indian Premier League) during the 2023-2024 season.
+    This was a project hosted by the Aggie Data Science club that really interested me because Cricket is a very important sport in my family and my community, but at the time I only understood the base rules of the sport. Diving deep into analysis of Cricket while learning more about the official data science industry terms and visualization processes was a really interesting way to learn about the sport and connect more with my Cricket-head dad. When I orginally worked on this project in 2024 the PM scraped the data we initially used, and I'd like to come back to this project with 2025 season data as a way to practice ETL process on data I've scraped myself.</p>
+    <h4 class="pop" style="text-align:center;">Key Accomplishments</h4>
     <ul>
       <li>Built an interactive Streamlit dashboard to analyze IPL 2023–2024 player performance</li>
       <li>Performed EDA with Pandas and created visualizations with Seaborn</li>
