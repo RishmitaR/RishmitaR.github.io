@@ -14,7 +14,7 @@ So I did what I should have done before even attempting to train - I performed E
 If the deployed dashboard is not working - which is an issue on the server side of streamlit and is not an issue with my dashboard - here are the instructions to run the dashboard on your local machine:
 
 
-```
+```bash
 git clone https://github.com/RishmitaR/Album-Per-Year-Data-Dashboard.git
 cd Album-Per-Year-Data-Dashboard.git
 pip install -r requirements.txt
