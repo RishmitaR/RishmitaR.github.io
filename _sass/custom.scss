@@ -161,6 +161,53 @@ li {
 
 
 /* =========================================================
+   EDUCATION
+========================================================= */
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #5a1f65;
+  color: #96e2b3;
+  border: 2px solid #7e82ac;
+  border-radius: 1rem;
+}
+
+.education-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.education-card h3,
+.education-card h4,
+.education-card h5 {
+  margin: 0.15rem 0;
+}
+
+.education-card p {
+  margin: 0.4rem 0 0;
+  color: #E8E9ED;
+}
+
+@media (max-width: 600px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .education-text {
+    align-items: center;
+  }
+}
+
+
+/* =========================================================
    ACCORDION (WORK + PROJECTS)
 ========================================================= */
 
@@ -204,6 +251,28 @@ li {
   object-fit: cover;
   border-radius: 0.5rem;
   flex-shrink: 0;
+}
+
+.education-card .card-img-left {
+  width: 80px;
+  height: 80px;
+  border-radius: 0.5rem;
+}
+
+.education-logo {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+
+}
+
+.education-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .accordion-text-right {
@@ -315,6 +384,11 @@ li {
   }
 
   .card-img-left {
+    width: 64px;
+    height: 64px;
+  }
+
+  .education-logo {
     width: 64px;
     height: 64px;
   }

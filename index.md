@@ -3,13 +3,16 @@ layout: page
 ---
 
 <h1 style="text-align: center;"> Hi! I’m <span class="name-highlight">Rishmita</span></h1>
-<h3 style="text-align: center;" class="tag-line">A recent college grad looking to bring my multifaceted skills to the tech world</h3>
+<h3 style="text-align: center;" class="tag-line">Problem solving enthusiast looking to bring my multifaceted skills to the tech world</h3>
 
 <section class="about-container">
   <div class="about-text">
     <h2 class="pop">About Me</h2>
     <p>
-      I’m a recent Texas A&M alumnus (whoop!) with a B.S. in Astrophysics and minors in Computer Science and Mathematics. Throughout university I took every opportunity to explore the expansive universe of software development and scientific programming, and I fell in love with learning new technologies to push the limits of my passions. 
+      I take every opportunity I possibly can to explore the expansive universe of software development and scientific programming. I love learning new technologies to push the limits of my passions. I'm currently looking for entry level positions in software engineering, forward deployed engineering, or data engineering. 
+    </p>
+    <p>
+      I can talk forever about astronomy, music, sci-fi (particularily sci-fi short stories!), synthesizers, and daily games (especially if you're a minutecryptic player). My hobbies are ever changing and always shifiting but I think that makes life more fun :D
     </p>
   </div>
   <div class="about-image">
@@ -48,8 +51,55 @@ layout: page
   </div>
 </section>
 
+<section class="education">
+  <h2 class="pop">Education</h2>
+
+  <div class="education-card">
+    <div class="education-logo">
+      <img src="ut-austin-logo.svg" alt="University of Texas at Austin">
+    </div>
+    <div class="education-text">
+      <h3 class="tech-card-title">Master of Science in Information Technology and Management</h3>
+      <h4 class="tech-card-text">The University of Texas at Austin </h4>
+      <h5>2026-2027</h5>
+    </div>
+  </div>
+
+  <div class="education-card">
+    <div class="education-logo">
+      <img src="tamu-logo.svg" alt="Texas A&M University">
+    </div>
+    <div class="education-text">
+      <h3 class="tech-card-title">Bachelor of Science in Physics</h3>
+      <h4 class="tech-card-text">Texas A&M University</h4>
+      <h5>2021-2025</h5>
+      <p>Astronomy concentration with minors in Computer Science and Mathematics</p>
+    </div>
+  </div>
+</section>
+
 <section class="work-experience">
-  <h2 class="pop">Experience</h2>
+  <h2>Experience</h2>
+
+  <button class="accordion">
+    <img src="tardis-logo.svg" alt="TARDIS" class="card-img-left" style="object-fit: contain; background: #E8E9ED;">
+    <div class="accordion-text-right">
+      <h3 class="tech-card-title">TardisRT Google Summer of Code 2026 Contributor</h3>
+      <h4 class="tech-card-text">Michigan State University — Remote</h4>
+      <h5>May 2026 – July 2026</h5>
+    </div>
+  </button>
+  <div class="panel">
+    <ul>
+      <p>
+        Google Summer of Code open source contributor with the TARDIS RT collaboration, working on the plasma module of TARDIS — open-science software for simulating and analyzing supernovae with Monte Carlo radiative transfer.
+      </p>
+      <h4 class="main-color" style="text-align:center;">Key Accomplishments</h4>
+      <li><b>Updated the TARDIS environment by refactoring pandas/NumPy across the codebase for compatibility with pandas 3.0, allowing the team to adopt newer package versions without breaking existing functionality</b></li>
+      <li><b>Identified dead code in the plasma module via pytest coverage reports to consolidate findings into architecture documentation, improving maintainability for future contributors</b></li>
+      <li><b>Closed test coverage gaps by writing pytest unit tests with numpy.testing and pandas.testing assertions against regression data, strengthening validation of plasma properties previously covered only by integration tests</b></li>
+    </ul>
+  </div>
 
   <button class="accordion">
     <img src="PLC logo.png" alt="PLC" class="card-img-left">
@@ -117,7 +167,7 @@ layout: page
 </section>
 
 <section class="projects">
-  <h2>Projects</h2>
+  <h2 class="pop">Projects</h2>
   <h4 class="project-subtitle">The projects more tied to my work experience are documented soley in the projects page. This is where I want to highlight some personal and student org projects.</h4>
   <h5 class="project-subtitle-smaller">*project pages and WIP blogs for all projects will be coming soon!</h5>
 
